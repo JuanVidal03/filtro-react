@@ -155,6 +155,9 @@ function App() {
       </div>
 
       <Tabla data={dataFiltrada}/>
+      <div className='w-full flex justify-center items-center'>
+        <p>{paginacion} de 20</p>
+      </div>
     </div>
   )
 }

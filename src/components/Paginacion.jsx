@@ -12,7 +12,8 @@ const Paginacion = () => {
     }
 
     return (
-        <select className="border p-2 w-[100px]" onChange={handleChange}>
+        <select className="border p-2 w-[200px]" onChange={handleChange}>
+            <option value="pag">Paginación</option>
             <option value="5">5</option>
             <option value="10">10</option>
             <option value="15">15</option>

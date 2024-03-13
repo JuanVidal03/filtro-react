@@ -6,7 +6,7 @@ const GlobalContextProvider = ({ children }) => {
     // valor del input
     const [buscador, setBuscador] = useState('');
     // valor de la paginacion
-    const [paginacion, setPaginacion] = useState('all');
+    const [paginacion, setPaginacion] = useState('20');
 
     return (
         <GlobalContext.Provider value={{
